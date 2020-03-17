@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+  "mp-cell": "../../WeUI/weui-miniprogram/cell/cell",
+  "mp-cells": "../../WeUI/weui-miniprogram/cells/cells"
+}
+}

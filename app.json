@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userInfo/userInfo",
+    "pages/order/order"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "有贰冒菜黄焖鸡米饭",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "#111100",
+    "selectedColor": "#1afa29",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "img/icon/indexCheckedIcon.png",
+        "iconPath": "img/icon/indexIcon.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/icon/orderCheckedIcon.png",
+        "iconPath": "img/icon/orderIcon.png",
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "selectedIconPath": "img/icon/userInfoCheckedIcon.png",
+        "iconPath": "img/icon/userInfoIcon.png",
+        "pagePath": "pages/userInfo/userInfo",
+        "text": "我的"
+      }
+    ]
+  }
+}

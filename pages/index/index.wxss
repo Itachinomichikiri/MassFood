@@ -1,0 +1,31 @@
+
+.img{
+  height: 270rpx;
+  width: 270rpx;
+  border-radius: 30rpx;
+  float: left;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.left{
+  margin-left: 30rpx;
+  margin-bottom: 30rpx;
+  height: 330rpx;
+  width: 330rpx;
+  float: left;
+  background-color: red;
+}
+
+.right{
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+  height: 330rpx;
+  width: 330rpx;
+  float: right;
+}
+.main-containt
+{
+  grid-row-start: 0;
+  grid-row: 4;
+  grid-column: 5;
+}
